@@ -3,19 +3,18 @@ import {
     View
 } from 'react-native';
 import { Router, Route } from './';
-// import { } from '../screens';
-// import { screenHolder, withAuth } from '../components';
-// mport styles from '../stylesheet';
+import {
+  AnimationSelector,
+  AnimatedTiming
+} from '../screens';
 
-
-export default class MainRouter extends Component {
-    render() {
-        return (
-            <Router>
-                <View>
-                    <Route exact path="/" component={AuthRedirect} />
-                </View>
-            </Router>
-        )
-    }
+export default function MainRouter() {
+  return (
+    <Router>
+      <View>
+        <Route exact path="/" component={AnimationSelector} />
+        <Route exact path="/timing" component={AnimatedTiming} />
+      </View>
+    </Router>
+  )
 }
