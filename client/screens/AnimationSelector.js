@@ -7,6 +7,7 @@ export default function AnimationSelector() {
     <View>
       <Link to="/timing"><Text>Animated Timing</Text></Link>
       <Link to="/timing2"><Text>Animated Timing Examples</Text></Link>
+      <Link to="/spring"><Text>Animated Spring</Text></Link>
     </View>
   )
 }

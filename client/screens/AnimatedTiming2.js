@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { Link } from '../navigation';
 
-export default function AnimationTiming() {
+export default function AnimationTiming2() {
   const animatedValue = new Animated.Value(0);
 
   const animate = () => {

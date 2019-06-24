@@ -6,7 +6,8 @@ import { Router, Route } from './';
 import {
   AnimationSelector,
   AnimatedTiming,
-  AnimatedTiming2
+  AnimatedTiming2,
+  AnimatedSpring
 } from '../screens';
 
 export default function MainRouter() {
@@ -16,6 +17,7 @@ export default function MainRouter() {
         <Route exact path="/" component={AnimationSelector} />
         <Route exact path="/timing" component={AnimatedTiming} />
         <Route exact path="/timing2" component={AnimatedTiming2} />
+        <Route exact path="/spring" component={AnimatedSpring} />
       </View>
     </Router>
   )
