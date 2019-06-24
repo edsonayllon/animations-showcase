@@ -23,7 +23,7 @@ export default function AnimationTiming() {
       {
         toValue: 1,
         duration: 5000,
-        easing: Easing.linear
+        easing: Easing.inOut(Easing.bounce)
       }
     ).start(() => spin());
   }
