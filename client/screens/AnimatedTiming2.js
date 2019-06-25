@@ -5,7 +5,8 @@ import {
   View,
   Animated,
   Image,
-  Easing
+  Easing,
+  Button
 } from 'react-native';
 import { Link } from '../navigation';
 
@@ -55,7 +56,7 @@ export default function AnimationTiming2() {
 
   return (
     <View>
-      <Link to="/"><Text>Back</Text></Link>
+      <Link to="/"><Button title="Back" color="#841584" /></Link>
       <Animated.View
         style={{
           marginLeft,

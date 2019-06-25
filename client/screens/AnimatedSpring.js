@@ -30,7 +30,7 @@ export default function AnimationSpring() {
 
   return (
     <View>
-      <Link to="/"><Text>Back</Text></Link>
+      <Link to="/"><Button title="Back" color="#841584" /></Link>
       <Animated.Image
         style={{
           width: 227,
