@@ -9,6 +9,8 @@ export default function AnimationSelector() {
       <Link to="/timing2"><Button title="Animated Timing Examples" color="#841584" /></Link>
       <Link to="/spring"><Button title="Animated Spring" color="#841584" /></Link>
       <Link to="/parallel"><Button title="Animated Parallel" color="#841584" /></Link>
+      <Link to="/sequence"><Button title="Animated Sequence" color="#841584" /></Link>
+      <Link to="/stagger"><Button title="Animated Stagger" color="#841584" /></Link>
     </View>
   )
 }

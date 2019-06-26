@@ -8,7 +8,9 @@ import {
   AnimatedTiming,
   AnimatedTiming2,
   AnimatedSpring,
-  AnimatedParallel
+  AnimatedParallel,
+  AnimatedSequence,
+  AnimatedStagger
 } from '../screens';
 
 export default function MainRouter() {
@@ -20,6 +22,8 @@ export default function MainRouter() {
         <Route exact path="/timing2" component={AnimatedTiming2} />
         <Route exact path="/spring" component={AnimatedSpring} />
         <Route exact path="/parallel" component={AnimatedParallel} />
+        <Route exact path="/sequence" component={AnimatedSequence} />
+        <Route exact path="/stagger" component={AnimatedStagger} />
       </View>
     </Router>
   )
